@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Monument Extended";
+  src: url("/fonts/MonumentExtended-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Monument Extended";
+  src: url("/fonts/MonumentExtended-Ultrabold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-monument text-custom-white;
+  }
+
+  p {
+    @apply font-montserrat text-custom-white;
+  }
+}
+
+@layer utilities {
+  .wrapper-padding-x {
+    @apply px-[50px] sm:px-[90px] md:px-[calc(8vw+10px)] lg:px-[calc(9vw+20px)];
+  }
+
+  .icon-platforms {
+    @apply text-custom-white text-[16px] md:text-[24px];
+  }
+}
