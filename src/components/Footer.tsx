@@ -111,6 +111,14 @@ const Footer = () => {
           Gabrielino/Tongva peoples on which our LA team live and work.
         </p>
       </div>
+      <div className="border-t border-white/20 p-6 w-full">
+        <p className="text-white/50 text-xs tracking-wider text-center">
+          Disclaimer: This is a practice project created to enhance frontend
+          development skills. This is not the official Monstercat website and is
+          intended for educational purposes only. All rights belong to their
+          respective owners.
+        </p>
+      </div>
     </div>
   );
 };

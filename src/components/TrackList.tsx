@@ -1,4 +1,3 @@
-import React from "react";
 import { FiPlay, FiShare2 } from "react-icons/fi"; // Import Feather icons
 
 // Define track interface
