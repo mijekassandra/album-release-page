@@ -88,9 +88,7 @@ const tracks: Track[] = [
 const TrackList = () => {
   return (
     <div className="flex flex-col gap-6 py-10">
-      <h2 className="text-h3 uppercase text-center lg:text-left lg:text-h2">
-        Track List
-      </h2>
+      <h2 className="heading-font">Track List</h2>
 
       <table className="w-full">
         <tbody>

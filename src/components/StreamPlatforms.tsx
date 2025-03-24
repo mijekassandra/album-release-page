@@ -10,9 +10,7 @@ import {
 const StreamPlatforms = () => {
   return (
     <div className="flex flex-col gap-6 py-10">
-      <h2 className="text-h3 uppercase text-center lg:text-left lg:text-h2">
-        Stream it Your Way
-      </h2>
+      <h2 className="heading-font">Stream it Your Way</h2>
 
       <div className="flex flex-wrap items-center justify-center w-full lg:justify-start">
         <div className="flex flex-wrap items-center border border-white w-fit">

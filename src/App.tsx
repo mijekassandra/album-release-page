@@ -1,4 +1,6 @@
 import AlbumView from "./components/AlbumView";
+import Footer from "./components/Footer";
+import MusicVideo from "./components/MusicVideo";
 import Navbar from "./components/Navbar";
 import StreamPlatforms from "./components/StreamPlatforms";
 import TrackList from "./components/TrackList";
@@ -26,6 +28,8 @@ function App() {
       <section className="wrapper-padding-x">
         <StreamPlatforms />
         <TrackList />
+        <MusicVideo />
+        <Footer />
       </section>
     </div>
   );
