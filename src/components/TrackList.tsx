@@ -88,7 +88,9 @@ const tracks: Track[] = [
 const TrackList = () => {
   return (
     <div className="flex flex-col gap-6 py-10">
-      <h2 className="heading-font">Track List</h2>
+      <h2 className="text-h3 uppercase text-center lg:text-left lg:text-h2">
+        Track List
+      </h2>
 
       <table className="w-full">
         <tbody>
@@ -97,17 +99,17 @@ const TrackList = () => {
               key={track.id}
               className="text-custom-white flex justify-between w-full"
             >
-              <div className="flex flex-1">
-                <td className="py-4 w-12 flex items-start h-full">
+              <div className="flex">
+                <td className="py-4 w-10 flex items-start h-full">
                   <p className="text-base md:text-lg">{track.id}</p>
                 </td>
-                <td className="py-4 w-12 flex items-start h-full">
+                <td className="py-4 w-10 flex items-start h-full">
                   <button className="pt-1">
                     <FiPlay className="text-lg md:text-xl" />
                   </button>
                 </td>
 
-                <div className="flex flex-1 flex-col min-w-0">
+                <div className="flex flex-1 flex-col min-w-0 mr-4">
                   <td className="py-4 flex flex-col items-start h-full">
                     <p className="text-lg font-semibold md:text-xl">
                       {track.title}
@@ -120,12 +122,12 @@ const TrackList = () => {
               </div>
 
               <div className="flex items-start shrink-0">
-                <td className="py-4 w-12 flex items-start h-full">
+                <td className="py-4 w-10 flex items-start h-full">
                   <p className="text-base font-semibold md:text-lg">
                     {track.duration}
                   </p>
                 </td>
-                <td className="py-4 w-12 text-right">
+                <td className="py-4 w-10 text-right">
                   <div className="flex items-start justify-end h-full">
                     <button className="pt-1">
                       <FiShare2 className="text-lg md:text-xl" />

@@ -7,7 +7,7 @@ import TrackList from "./components/TrackList";
 
 function App() {
   return (
-    <div className="relative bg-custom-black">
+    <div className="relative">
       <section className="relative">
         <Navbar />
         {/* Background image -------------------------------------------------*/}
@@ -25,7 +25,7 @@ function App() {
       </section>
 
       {/* Other components ------------------------------------------------- */}
-      <section className="wrapper-padding-x">
+      <section className="wrapper-padding-x bg-custom-black">
         <StreamPlatforms />
         <TrackList />
         <MusicVideo />

@@ -3,8 +3,8 @@ import { FiPlay, FiShare2 } from "react-icons/fi";
 
 const AlbumView = () => {
   return (
-    <div className="relative min-h-screen w-full ">
-      <div className="flex flex-col lg:flex-row items-center justify-between gap-20 py-20">
+    <div className="relative min-h-screen w-full p-">
+      <div className="flex flex-col lg:flex-row items-center justify-between gap-20 py-32">
         <section className="flex items-center">
           <img src="/assets/eternal-sunshine.jpg" className="w-[430px]" />
         </section>
